@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Data files
+data/
+*.csv
+*.xlsx
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+pg_data/
+docker/volumes/
+docker-compose.override.yml
