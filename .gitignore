@@ -12,9 +12,13 @@ __pycache__/
 
 # Data files
 data/
+postgres_data/
 *.csv
 *.xlsx
 *.json
+
+# allow mapping csv files
+!scripts/preprocessing/mappings/*.csv
 
 # OS
 .DS_Store
